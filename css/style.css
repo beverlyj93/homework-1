@@ -70,8 +70,7 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    border-top: 7px solid;
-    border-color: #4aaaa5;
+    border-top: 8px solid #4aaaa5;
 }
 
 .header-container {
@@ -90,13 +89,17 @@ footer {
 }
 
 .body-container-pictures {
-    height: 750px;
+    height: 770px;
     width: 960px;
     background-color: #ffffff;
     margin: 0 auto;
     margin-bottom: 25px;
     border: 0.1px solid;
     border-color: #dddddd;
+}
+
+.body-picture-container {
+    width: 70%;
 }
 
 .body-inner-container {
@@ -155,7 +158,7 @@ h2 {
 }
 
 h4 {
-    font-family: 'Georgia', 'Times', 'Times New Roman', serif;
+    font-family: 'Arial', 'Helvetica Neue', 'Helvetica', sans-serif;
     margin: 10px 0px 7px 0px;
     color: #777777
 }
