@@ -67,7 +67,7 @@ footer {
     height: 60px;
     background-color: #666666;
     color: #ffffff;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
     border-top: 7px solid;
@@ -110,6 +110,28 @@ footer {
 
 .body-inner-pictures {
     width: 60%;
+}
+
+.image {
+    float: left;
+    position: relative;
+}
+
+.banner {
+    position: absolute;
+    bottom: 50px;
+    width: 225px;
+    padding: 15px 0px 15px 0px;
+    text-align: center;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-family: 'Georgia', 'Times', 'Times New Roman', serif;
+    font-size: 20px;
+
+}
+
+.spacer-sm {
+    height: 100px;
 }
 
 h1 {
